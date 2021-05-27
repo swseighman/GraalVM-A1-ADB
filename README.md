@@ -381,3 +381,5 @@ sys	0m0.004s
 Impressive, it takes only **448ms** using the native image executable!
 
 ### Summary
+
+In this example, we created an Autonomous Database and an Ampere A1 VM (aarch64), plus we installed tools and credentials to access the database.  In addition, we installed GraalVM and a demo application which accessed our Autonomous Database. Quite a complete end-to-end example using several cool technologies!  We're so excited to see what you build on Arm and OCI using GraalVM.
