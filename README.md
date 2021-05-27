@@ -292,6 +292,11 @@ $ mv ojdbc11-full lib
 $ javac -cp ./lib/ojdbc11.jar:./lib/ucp.jar:./lib/oraclepki.jar:./lib/osdt_core.jar:./lib/osdt_cert.jar:. DataSourceSample.java
 ```
 
+**NOTE:** Confirm the `TNS_ADMIN` environment variable is set to the location of the credentials file before running the application:
+```
+$ export TNS_ADMIN=/home/ocp/wallet
+```
+
 8. Run the application:
 ```
 $ java -cp ./lib/ojdbc11.jar:./lib/ucp.jar:./lib/oraclepki.jar:./lib/osdt_core.jar:./lib/osdt_cert.jar:. DataSourceSample
@@ -302,6 +307,7 @@ Database Username is: ADMIN
 
 'SELECT * FROM DUAL' returned: X
 ```
+
 9. Let's perform a query:
 ```
 $ java -cp ./lib/ojdbc11.jar:./lib/ucp.jar:./lib/oraclepki.jar:./lib/osdt_core.jar:./lib/osdt_cert.jar:. DataSourceSample "SELECT TO_CHAR (SYSDATE, 'MM-DD-YYYY HH24:MI:SS') \"NOW\" FROM DUAL"
