@@ -251,7 +251,7 @@ $ git clone https://github.com/swseighman/GraalVM-A1-ADB.git
 $ cd GraalVM-A1-ADB
 ```
 
-3. Download the full OJDBC drivers from [here](https://www.oracle.com/webapps/redirect/signon?nexturl=https://download.oracle.com/otn/utilities_drivers/jdbc/122010/ojdbc8-full.tar.gz).
+3. Download the full OJDBC drivers from [here](https://www.oracle.com/database/technologies/appdev/jdbc-downloads.html).  Choose the **Oracle Database 21c** (21.1) drivers.
 
 4. Unzip the drivers:
 ```
