@@ -22,23 +22,23 @@ Login to your `Oracle Cloud Infrastructure` account.
 
 1. From the main menu, click on `Oracle Database`, then `Autonomous Database`:
 
-![](//wsl$/Fedora/home/sseighma/code/graalvm/GraalVM-Native-Image-Oracle-Database/images/adb-1.png)
+![](images/adb-1.png)
 
 2. Click on the instance in the `Display Name` box:
 
-![](//wsl$/Fedora/home/sseighma/code/graalvm/GraalVM-Native-Image-Oracle-Database/images/adb-2.png)
+![](images/adb-2.png)
 
 3. Click on the `DB Connection` button:
 
-![](//wsl$/Fedora/home/sseighma/code/graalvm/GraalVM-Native-Image-Oracle-Database/images/Wallet-3.png)
+![](images/Wallet-3.png)
 
 4. Click `Download Wallet`:
 
-![](//wsl$/Fedora/home/sseighma/code/graalvm/GraalVM-Native-Image-Oracle-Database/images/Wallet-1.png)
+![](images/Wallet-1.png)
 
 5. Enter a password and click the `Download` button:
 
-![](//wsl$/Fedora/home/sseighma/code/graalvm/GraalVM-Native-Image-Oracle-Database/images/Wallet-2.png)
+![](images/Wallet-2.png)
 
 We'll use these crededntial files in steps after we provision the Ampere A1 instance.
 
@@ -51,38 +51,38 @@ Once you have an Autonomous Database running and the credentials downloaded, con
 
 2. Choose `Create a VM Instance` from Quick Actions:
 
-![](//wsl$/Fedora/home/sseighma/code/graalvm/GraalVM-Native-Image-Oracle-Database/images/a1-1.png)
+![](images/a1-1.png)
 
 3. Click on the `Edit` button to configure the VM:
 
-![](//wsl$/Fedora/home/sseighma/code/graalvm/GraalVM-Native-Image-Oracle-Database/images/a1-2.png)
+![](images/a1-2.png)
 
 4. Click on the `Change Image` button:
 
-![](//wsl$/Fedora/home/sseighma/code/graalvm/GraalVM-Native-Image-Oracle-Database/images/a1-3-a.png)
+![](images/a1-3-a.png)
 
 5. Choose `Oracle Linux` and `8` as the  OS Version and click `Select Image`:
 
-![](//wsl$/Fedora/home/sseighma/code/graalvm/GraalVM-Native-Image-Oracle-Database/images/a1-4.png)
+![](images/a1-4.png)
 
 6. Next, click the `Change Shape` button:
 
-![](//wsl$/Fedora/home/sseighma/code/graalvm/GraalVM-Native-Image-Oracle-Database/images/a1-3-b.png)
+![](images/a1-3-b.png)
 
 7. Choose `Ampere`, increase the OCPUs to `4` (which will automatically increase the memory to 24GB) and click on `Select Shape`:
 
-![](//wsl$/Fedora/home/sseighma/code/graalvm/GraalVM-Native-Image-Oracle-Database/images/a1-5.png)
+![](images/a1-5.png)
 
 
 8. Scroll down and make certain to download your SSH Keys:
 
-![](//wsl$/Fedora/home/sseighma/code/graalvm/GraalVM-Native-Image-Oracle-Database/images/a1-7.png)
+![](images/a1-7.png)
 
 9. Click on the `Create` button to provision your Ampere A1 instance.
 
 10. When the provisioing process is complete, you'll be presented with information about your instance, including the `Public IP Address` (you'll need to note that address for SSH access):
 
-![](//wsl$/Fedora/home/sseighma/code/graalvm/GraalVM-Native-Image-Oracle-Database/images/a1-9.png)
+![](images/a1-9.png)
 
 11. SSH into your new A1 instance using the keys you downloaded in the previous step:
 
