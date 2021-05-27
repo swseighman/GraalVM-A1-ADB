@@ -10,9 +10,9 @@ import java.sql.ResultSet;
 public class DataSourceSample {
 
   // For OCI Version
-  final static String DB_URL= "jdbc:oracle:thin:@db202105260820_medium?TNS_ADMIN=/home/sseighma/code/graalvm/GraalVM-A1-ADB/wallet";
+  final static String DB_URL= "jdbc:oracle:thin:@db<your-unique-connection>_medium?TNS_ADMIN=/home/opc/wallet";
   final static String DB_USER = "ADMIN";
-  final static String DB_PASSWORD = "Spl!nt3r!!!!";
+  final static String DB_PASSWORD = "Your-Password";
 
   public static void main(String args[]) throws SQLException {
     String query = "SELECT * FROM DUAL";
