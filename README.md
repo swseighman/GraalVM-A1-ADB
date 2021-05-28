@@ -40,7 +40,7 @@ Login to your `Oracle Cloud Infrastructure` account.
 
 ![](images/Wallet-2.png)
 
-We'll use these crededntial files in steps after we provision the Ampere A1 instance.
+We'll use these credential files in steps after we provision the Ampere A1 instance.
 
 Once you have an Autonomous Database running and the credentials downloaded, continue to the next steps.
 
